@@ -24,3 +24,6 @@ print(df.columns.to_list())
 
 print("Statistics for order value and cost:")
 print(df[["order_value_EUR", "cost"]].describe())
+
+print("Sales data summary:")
+print(df.groupby)
