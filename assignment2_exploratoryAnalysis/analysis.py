@@ -27,3 +27,12 @@ print(df[["order_value_EUR", "cost"]].describe())
 
 print("Sales data summary:")
 print(df.groupby)
+
+highest_order_value = df["order_value_EUR"].max()
+lowest_order_value = df["order_value_EUR"].min()
+
+print("Highest order value:")
+print(highest_order_value)
+
+print("Lowest order value:")
+print(lowest_order_value)
