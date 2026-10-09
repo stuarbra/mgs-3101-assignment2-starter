@@ -19,3 +19,8 @@ print(df.head())
 
 print("missing values:")
 print(df.isnull().sum())
+
+print(df.columns.to_list())
+
+print("Statistics for order value and cost:")
+print(df[["order_value_EUR", "cost"]].describe())
