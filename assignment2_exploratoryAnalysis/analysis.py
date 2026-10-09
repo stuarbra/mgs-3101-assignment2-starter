@@ -50,3 +50,10 @@ print("Average order value:")
 print(df["order_value_EUR"].mean())
 print("Total cost:")
 print(df["cost"].sum())
+
+print("Recommendations:")
+
+if df["order_value_EUR"].mean() > 1000:
+    print("Sales are strong. Keep focusing on high-value orders.")
+else:
+    print("Try to increase average order volume.")
