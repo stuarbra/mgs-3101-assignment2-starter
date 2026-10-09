@@ -16,3 +16,6 @@ print("Data types:")
 
 print("First 5 rows:")
 print(df.head())
+
+print("missing values:")
+print(df.isnull().sum())
