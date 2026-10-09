@@ -36,3 +36,9 @@ print(highest_order_value)
 
 print("Lowest order value:")
 print(lowest_order_value)
+
+average_order = df["order_value_EUR"].mean()
+if average_order > 1000:
+    print("Average order value is above 1000 EUR.")
+else:
+    print("Average order value is 1000 EUR or below.")
