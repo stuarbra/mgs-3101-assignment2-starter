@@ -13,3 +13,6 @@ print(df.shape)
 
 print(df.dtypes)
 print("Data types:")
+
+print("First 5 rows:")
+print(df.head())
