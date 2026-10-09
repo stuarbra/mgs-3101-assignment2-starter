@@ -7,3 +7,6 @@ df["date"] = pd.to_datetime(df["date"])
 print(df.head())
 print(df.info())
 print(df.describe())
+
+print("shape:")
+print(df.shape)
