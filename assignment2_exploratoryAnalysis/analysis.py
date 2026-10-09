@@ -42,3 +42,11 @@ if average_order > 1000:
     print("Average order value is above 1000 EUR.")
 else:
     print("Average order value is 1000 EUR or below.")
+
+print("Sales data summary:")
+print("Total sales:")
+print(df["order_value_EUR"].sum())
+print("Average order value:")
+print(df["order_value_EUR"].mean())
+print("Total cost:")
+print(df["cost"].sum())
