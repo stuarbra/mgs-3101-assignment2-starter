@@ -10,3 +10,6 @@ print(df.describe())
 
 print("shape:")
 print(df.shape)
+
+print(df.dtypes)
+print("Data types:")
